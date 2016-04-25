@@ -14,3 +14,5 @@ Git 命令：
 	以漂亮的列表查看 git log --pretty=oneline	
 	还原到指定版本	git reset commit id (git log 前的数字)
 	查看历史命令日志 git reflog (用来还原到未来的版本)
+	撤销工作区修改	git checkout -- filename
+	撤销暂存区修改	git reset HEAD fielname
