@@ -16,3 +16,6 @@ Git 命令：
 	查看历史命令日志 git reflog (用来还原到未来的版本)
 	撤销工作区修改	git checkout -- filename
 	撤销暂存区修改	git reset HEAD fielname
+	从版本库删除	git rm;	git commit -m 'remove xxx';
+	撤销版本库删除	git checkout -- filename
+
